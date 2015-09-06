@@ -1,15 +1,11 @@
 <div class="profile">
     <section id="wrapper">
+    <div itemscope itemtype="http://data-vocabulary.org/Person">
         <header id="header">
-        {% if site.aboutPage %}
-            <a href="{{ site.baseurl }}about">
-                <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/avatar.png"/>
-            </a>
-        {% else %}
-            <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/avatar.png"/>
-        {% endif %}
-            <h1>{{ site.author }}</h1>
-            <h2>{{ site.description }}</h2>
+                <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/michael.jpg"/>
+            <h1><span itemprop="name">Michael Luckeneder</span></h1>
+            <h2><span itemprop="title">Software Engineer</span> at <i class="fa fa-yelp"></i> <span itemprop="affiliation">Yelp</span></h2>
         </header>
+        </div>
     </section>
 </div>

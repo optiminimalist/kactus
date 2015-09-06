@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
+name: Michael Luckeneder
 description: Software Engineer
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+# meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 aboutPage: true
 
@@ -10,14 +10,14 @@ highlighter: pygments
 paginate: 20
 baseurl: /
 domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-40155093-2'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            'http://michael.luckeneder.net'
 author:         'Michael Luckeneder'
-authorTwitter:  'YourTwitterUsername'
+# authorTwitter:  'YourTwitterUsername'
 
 permalink:       /:year/:title/
 
